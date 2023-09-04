@@ -60,7 +60,7 @@ handle compilation of all five C files by executing the "make" command.
    ```
 7. Encrypt a message with the encryption client on the encryption server port
    ```sh
-      ./enc_client message.txt key 11111 > enc_message.txt     # encrypt message.txt using key
+      ./enc_client message.txt key 11111 > enc_message.txt   # encrypt message.txt using key
    ```
 6. Decrypt the encrypted message with the decryption client on the decryption server port
    ```sh
