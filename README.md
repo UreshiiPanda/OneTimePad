@@ -18,7 +18,7 @@ You can read about the One-Time Pad process here [One Time Pad Wiki](https://en.
 but basically, it's an encryption method that involves the use of a single-use key that is >= the size of the 
 message being sent and is shared between both parties (the encryptor and the decryptor). This program first
 uses a key generation program to generate a random single-use key. This program then runs an encryption 
-server which listens for encyrption clients and encrypts their messages. Finally, the program then runs a 
+server which listens for encryption clients and encrypts their messages. Finally, the program then runs a 
 decryption server which listens for decryption clients and decrypts their encrypted messages using the 
 same key that was used to encrypt that message.
 
